@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*{
+			padding:0;
+			margin:0;
+			list-style:none;
+		}
+		ul{
+			display: flex;
+			width: 200px;
+			line-height: 50px;
+			justify-content: space-around;
+			flex-wrap: nowrap;
+		}
+		.active{
+			color: hotpink;
+		}
+		div{
+			width: 200px;
+			text-align: center;
+			line-height: 100px;
+		}
+	</style>
+</head>
+<body>
+	<div id="box">
+		<ul>
+			<li :class="istype=='no1'?'active':''" @click='istype="no1"'>1</li>
+			<li :class="istype=='no2'?'active':''" @click='istype="no2"'>2</li>
+			<li :class="istype=='no3'?'active':''" @click='istype="no3"'>3</li>
+		</ul>
+		<component :is='istype' tag='div'></component>
+
+	</div>
+</body>
+<script src="vue.js"></script>
+<script>
+	Vue.component('no1',{
+		template:'<div>no1</div>'
+	})
+	Vue.component('no2',{
+		template:'<div>no2</div>'
+	})
+	Vue.component('no3',{
+		template:'<div>no3</div>'
+	})
+	new Vue({
+		el:'#box',
+		data:{
+			istype:'no1'
+		}
+	})
+</script>
+</html>
