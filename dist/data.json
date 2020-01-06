@@ -1,0 +1,45 @@
+{
+	"data": [{
+			"name": "水饺",
+			"allfood": [{
+					"foodname": "猪肉白菜水饺",
+					"price": 16,
+					"imgurl": "http://img5.imgtn.bdimg.com/it/u=147737653,2351889088&fm=26&gp=0.jpg"
+				},
+				{
+					"foodname": "虾仁三鲜水饺",
+					"price": 25,
+					"imgurl": "http://img5.imgtn.bdimg.com/it/u=1079449551,2310265682&fm=26&gp=0.jpg"
+				}
+			]
+		},
+		{
+			"name": "流食",
+			"allfood": [{
+					"foodname": "红烧面",
+					"price": 18,
+					"imgurl": "http://img0.imgtn.bdimg.com/it/u=1126766578,3546096906&fm=26&gp=0.jpg"
+				},
+				{
+					"foodname": "牛肉面",
+					"price": 28,
+					"imgurl": "http://img5.imgtn.bdimg.com/it/u=4167258810,2287138125&fm=26&gp=0.jpg"
+				}
+			]
+		},
+		{
+			"name": "包子",
+			"allfood": [{
+					"foodname": "小笼包",
+					"price": 2,
+					"imgurl": "http://img5.imgtn.bdimg.com/it/u=4167258810,2287138125&fm=26&gp=0.jpg"
+				},
+				{
+					"foodname": "猪肉包子",
+					"price": 5,
+					"imgurl": "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3664591262,3347035932&fm=26&gp=0.jpg"
+				}
+			]
+		}
+	]
+}
